@@ -5,16 +5,9 @@
 using namespace std;
 int main()
 {
-    setlocale(LC_ALL, "Russian");
-    for (int i = 0; i < 10; i++) {
-        cout << "Hello World!\n";
-    }
-    for (int i = 0; i < 10; i++) {
-        
-        cout << "!";
-    }
-    cout << 1;
-    return 0;
+	for (int i = 0; i < 8; ++i) {
+		cout << "YA PIDORAS\n";
+	}
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
